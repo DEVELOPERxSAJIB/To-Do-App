@@ -18,10 +18,10 @@
                 <h2 class="text-center">Dynamic ToDo App</h2>
             </div>
             <div class="card-body">
-                <form action="">
-                    <div class="form-group mt-2">
+                <form id="todo_form" action="" class="d-flex">
+                    <div class="form-group mt-2 d-flex d-block">
                         <input id="todo_name" type="text" class="form-control">
-                        <input id="todo_client" type="text" class="form-control mt-2">
+                        <input id="todo_client" type="text" class="form-control">
                     </div>
                     <div class="form-group mt-2">
                         <input id="todo_date" type="date" class="form-control">
@@ -30,9 +30,17 @@
                         <input id="todo_time" type="time" class="form-control">
                     </div>
                     <div class="form-group mt-2">
-                        <input id="" type="submit" class="btn btn-success">
+                        <input id="" type="submit" value="Add" class="btn btn-success">
                     </div>
                 </form>
+
+                <br>
+                <div class="todo-list">
+                    <ul class="list-group">
+
+                    </ul>
+                </div>
+
             </div>
         </div>
     </div>
